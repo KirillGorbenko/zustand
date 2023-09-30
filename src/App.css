@@ -1,0 +1,60 @@
+html {
+  --background-color: white;
+  --main-color: cornflowerblue;
+  --text-color: white;
+
+  font-size: 10px;
+  color: var(--text-color);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+p {
+  margin: 0;
+}
+
+header, footer {
+  width: calc(100%  - 4rem);
+}
+
+header, footer {
+  padding: 2rem;
+}
+
+header {
+  background: var(--main-color);
+  height: 10%;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+main {
+  width: 30%;
+  height: 60%;
+  background: var(--main-color);
+  overflow: auto;
+}
+
+button {
+  background-color: white;
+}
+
+footer {
+  height: 10%;
+  background: var(--main-color);
+}
+
+
